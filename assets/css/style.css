@@ -11,13 +11,23 @@ body {
 * {
   box-sizing: border-box;
 }
+h1,
+.navbar-brand {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.nav-right {
+  float: right;
+}
 
 .brand {
     color: #ffffff;
-    font-size: 36px;
+    /* font-size: 36px;
     font-weight: bold; 
     background-color: #4aaaa5;
-    height: 75px;
+    height: 75px; */
     /* text-align: center; */
 }
 
@@ -29,7 +39,7 @@ body {
     /* position: relative; */
     margin: -10px 0 -10px -15px;
     padding: 20px 20px 0 20px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    /* font-family: Georgia, Times, "Times New Roman", serif; */
     /* font-size: 30px; */
     /* font-weight: 700;
     line-height: 90px; */
