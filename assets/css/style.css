@@ -18,65 +18,38 @@ h1,
   font-weight: bold;
 }
 
-.nav-right {
-  float: right;
-}
-
 .brand {
     color: #ffffff;
-    /* font-size: 36px;
-    font-weight: bold; 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: bold;
     background-color: #4aaaa5;
-    height: 75px; */
-    /* text-align: center; */
+    height: 75px;
+    margin: -10px 0 -10px -15px;
+    padding: 20px 20px 0 20px;
 }
 
 /* header */
 .container-fluid {
-    /* background-color: #ffffff; */
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #cccccc;
 }
 .navbar-brand {
-    /* position: relative; */
     margin: -10px 0 -10px -15px;
     padding: 20px 20px 0 20px;
-    /* font-family: Georgia, Times, "Times New Roman", serif; */
-    /* font-size: 30px; */
-    /* font-weight: 700;
-    line-height: 90px; */
     background-color: #4aaaa5;
     height: 75px;
-    /* float: left; */
     text-align: center;
 }
 
 /* navbar */
-/* nav {
-  margin-top: 0 auto;
-} */
-.nav-link {
-    /* display: inline-block; */
+.nav-link {  
     padding-left: 15px;
     margin-left: 15px;
     line-height: 18px;
     color: #777777;
-    /* text-decoration-line: none; */
-    /* border-left: 1px solid black; */
 }
 
-/* removes left border from About link in navbar */
-/* .nav-link:first-child {
-  border-left: 0 none;
-} */
-/* nav a:hover {
-    font-weight: bold;
-}  */
-
-.container-fluid {
-    border-bottom: 2px solid #cccccc;
-    /* width: 960px;
-    padding: 20px;
-    margin: 0 auto; */
-}
 .main-section {
     background-color: #ffffff;
     padding: 20px 35px 20px 35px;
