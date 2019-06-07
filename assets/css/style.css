@@ -49,7 +49,9 @@ h1,
     line-height: 18px;
     color: #777777;
 }
-
+.navbar-nav {
+  padding-top: 15px;
+}
 .main-section {
     background-color: #ffffff;
     padding: 20px 35px 20px 35px;
